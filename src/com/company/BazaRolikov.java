@@ -5,6 +5,7 @@ import java.util.Scanner;
 /**
  * Created by Rollershop on 29.05.2016.
  */
+//class for input parameters of pair Rollerskates
 public class BazaRolikov {
 
     private String name;
@@ -14,7 +15,7 @@ public class BazaRolikov {
     }
 
     public static String para() {
-        String brand, model;
+        String brand, model, s = null;
         double size;
         int diametrKoles, godVypuska;
 
@@ -31,8 +32,13 @@ public class BazaRolikov {
         System.out.println("введи год выпуска");
         godVypuska = sc.nextInt();
 
-        Rollerskates para = new Rollerskates(brand, model, size, diametrKoles, godVypuska);
-        return para.toString();
+        Rollerskates para = new Rollerskates(brand,
+                model,
+                size,
+                diametrKoles,
+                godVypuska);
+       return para.toString();
+
 
 
     }
