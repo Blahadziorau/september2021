@@ -15,7 +15,7 @@ public class BazaRolikov {
     }
 
     public static String para() {
-        String brand, model, s = null;
+        String brand, model;
         double size;
         int diametrKoles, godVypuska;
 
