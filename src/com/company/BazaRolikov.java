@@ -8,7 +8,7 @@ import java.util.Scanner;
 //class for input parameters of pair Rollerskates
 public class BazaRolikov {
 
-    private String name;
+    public String name;
 
     public BazaRolikov(String name) {
         this.name = name;
