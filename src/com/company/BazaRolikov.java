@@ -28,7 +28,7 @@ public class BazaRolikov {
         System.out.println("введи размер");
         size = sc.nextDouble();
         System.out.println("введи диаметр колес");
-        diametrKoles = sc.nextInt();
+        diametrKoles =sc.nextInt();
         System.out.println("введи год выпуска");
         godVypuska = sc.nextInt();
 
@@ -37,8 +37,7 @@ public class BazaRolikov {
                 size,
                 diametrKoles,
                 godVypuska);
-       return para.toString();
-
+        return para.toString();
 
 
     }
