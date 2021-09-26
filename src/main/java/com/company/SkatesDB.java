@@ -6,13 +6,9 @@ import java.util.Scanner;
  * Created by Rollershop on 29.05.2016.
  */
 //class for input parameters of pair Rollerskates
-public class BazaRolikov {
+public class SkatesDB {
 
-    public String name;
 
-    public BazaRolikov(String name) {
-        this.name = name;
-    }
 
     public static String para() {
         String brand, model;
