@@ -1,9 +1,9 @@
 
 public class Main {
     public static void main(String[] args) {
-        Tri f = new Tri();
-        f.foo();
-        /*TriUpsideDown g = new TriUpsideDown();
-        g.foo();*/
+      /*  Tri f = new Tri();
+        f.foo();*/
+        TriUpsideDown g = new TriUpsideDown();
+        g.foo();
     }
 }
