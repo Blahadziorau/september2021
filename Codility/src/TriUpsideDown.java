@@ -1,7 +1,6 @@
 public class TriUpsideDown {
     public String s = "* ";
     public int rows = 4;
-
     public void foo() {
         for (int i = rows; i > 0; i--) {
             for (int j = 0; j < i; j++) {
@@ -13,4 +12,6 @@ public class TriUpsideDown {
             System.out.println();
         }
     }
+
+
 }
